@@ -130,13 +130,13 @@ var App = {
 		}
 		
 		for (i = App.comp.length; i--; ) {
-			ctx.drawImage(App.glasses, (App.comp[i].x - w / 2) * m, (App.comp[i].y - w / 2) * m, (App.comp[i].width + w) * m, (App.comp[i].height + w) * m);
+			ctx.drawImage(App.glasses, (App.comp[i].x - w / 2) * m - 100, (App.comp[i].y - w / 2) * m - 100, (App.comp[i].width + w) * m + 200, (App.comp[i].height + w) * m + 200);
 		}
 	}
 };
 
 App.glasses = new Image();
-App.glasses.src = 'glasses.png';
+App.glasses.src = 'poo.png';
 
 App.init = function() {
 	App.video = document.createElement('video');
