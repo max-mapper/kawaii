@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Azuki';
+  src: url('azuki_font.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body { font-family: Azuki, Helvetica, Open Sans, Arial, sans-serif; }
+
+body {
+	font-size: 24px;
+	line-height: 24px;
+	color: #111;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	background-color: #FFF6EA;
+}
+
+#info {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	top: 50%;
+	margin-top: -15px;
+}
+
+#output {
+	width: auto;
+	height: 100%;
+	background: black;
+	-webkit-transform: scale(-1, 1);
+}
