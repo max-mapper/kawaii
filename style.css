@@ -29,6 +29,6 @@ body {
 #output {
 	width: auto;
 	height: 100%;
-	background: black;
+	background: #FFF6EA;
 	-webkit-transform: scale(-1, 1);
 }
