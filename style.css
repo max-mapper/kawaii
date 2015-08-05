@@ -18,6 +18,9 @@ body {
 	background-color: #FFF6EA;
 }
 
+.critters { }
+.critters img { width: 50px; }
+  
 #info {
 	position: absolute;
 	width: 100%;

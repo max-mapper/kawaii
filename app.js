@@ -21,6 +21,13 @@
 	}
 }());
 
+[].slice.call(document.querySelectorAll('.critters img')).forEach(function (el) {
+  el.addEventListener('click', function (el) {
+    var src = el.target.getAttribute('src')
+    App.glasses.src = src
+  })
+})
+
 var App = {
 	start: function(stream) {
 		App.video.addEventListener('canplay', function() {
