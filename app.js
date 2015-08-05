@@ -95,7 +95,7 @@ var App = {
 		}
 		
 		for (i = App.comp.length; i--; ) {
-			ctx.drawImage(App.glasses, (App.comp[i].x - w / 2) * m - 20, (App.comp[i].y - w / 2) * m - 20, (App.comp[i].width + w) * m + 40, (App.comp[i].height + w) * m + 40);
+			ctx.drawImage(App.glasses, (App.comp[i].x - w / 2) * m - 60, (App.comp[i].y - w / 2) * m - 60, (App.comp[i].width + w) * m + 120, (App.comp[i].height + w) * m + 120);
 		}
 	}
 };
